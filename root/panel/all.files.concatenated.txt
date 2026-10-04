@@ -1,0 +1,17 @@
+#!/bin/bash
+# Avvia il pannello comandi
+cd /mnt/bkp.05.03/ws.03.cst.apps/brow.03/root/panel
+go run main.go
+.
+./all.files.concatenated.txt
+./run.panel.brow.03.webview.sh
+./main.go
+./go.sum
+./run.panel.brow.03.gui.fyne.sh
+./make.panel.brow.03.gui.fyne.sh
+./go.mod
+  447  clear
+  448  ./run.panel.brow.03.webview.sh
+  449  for F in *; do cat $F > all.files.concatenated.txt; done
+  450  find >> all.files.concatenated.txt
+  451  history | tail -n 5 >> all.files.concatenated.txt

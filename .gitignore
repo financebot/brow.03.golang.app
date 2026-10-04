@@ -1,0 +1,12 @@
+# Binari compilati
+*.bin
+brow.03.webview
+panel/*.bin
+
+# Screenshot (opzionale, se non vuoi caricarli)
+picS.brow.03/*.png
+
+# File temporanei
+*.tmp
+*.log
+ls.txt
